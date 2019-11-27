@@ -18,7 +18,7 @@ in_map = (0:255) / 255;
 switch mode
     case 'negative'
         g = ones(m, n) - f;
-        map = ones(256) - in_map;
+        map = ones(1, 256) - in_map;
         
     case 'log'
         g = 1 * log(f + 1);

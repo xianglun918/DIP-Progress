@@ -4,7 +4,7 @@
 function g = histEqual4e(f)
 % We have the normalized (probablity) of the intensity distribution
 img_hist = imageHist4e(f, 'n');
-param_list = zeros(256);
+param_list = zeros(1, 256);
 
 % Calculate the map of equalized historgram
 for i = 1:256

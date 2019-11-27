@@ -16,13 +16,8 @@ g = zeros(f_m + 2 * pad_m, f_n + 2* pad_n);
 for i = (pad_m + 1) : (pad_m + f_m)
     for j = (pad_n + 1) : (pad_n + f_n)
         f_temp = f((i - pad_m):(i + pad_m), (j - pad_n):(j + pad_n));
-        temp_hist = imageHist4e(f_temp, 'n');
-        temp_param = zeros(256);
-        for z = 1:256
-            temp_param(z) = sum(temp_hist(1:z));
-        end
         g((i - pad_m):(i + pad_m), (j - pad_n):(j + pad_n)) = ...
-            inXform4e(f_temp, 'external', temp_param);
+            histEqual4e(f_temp);
     end
 end
 g = g((pad_m + 1):(pad_m + f_m), (pad_n + 1):(pad_n + f_n));
