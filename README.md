@@ -1,4 +1,7 @@
 # DIP-Progress
-Matlab based codes.
-This repository includes my codes during the study of digital image processing. (Based on the book, 4th edition).
-(Note: This repository has multiply mistakes which are not fixed.) 
+
+This repository includes my codes during the study of digital image processing. (Based on the book with the same name, 4th edition).
+
+## Notation
+
+(Note: This repository has multiply mistakes in codes which are not fixed. Please do not refer to it as answer of your work.) 
