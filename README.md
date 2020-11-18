@@ -4,4 +4,4 @@ This repository includes my codes during the study of digital image processing. 
 
 ## Notation
 
-(Note: This repository has multiply mistakes in codes which are not fixed. Please do not refer to it as answer of your work.) 
+(Note: This repository has multiply mistakes in codes which are not fixed. I may not update them in any near future.) 
