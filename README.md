@@ -1,4 +1,4 @@
-# DIP-Progress
+# Digital Image Processing Homework
 
 This repository includes my codes during the study of digital image processing. (Based on the book with the same name, 4th edition).
 
